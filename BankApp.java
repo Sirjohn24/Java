@@ -1,10 +1,5 @@
 
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-public class BankApp {
+public class Main {
     public int getUserid() {
         return userid;
     }
@@ -23,7 +18,7 @@ public class BankApp {
                 new UserAccount(412435,7452,"Chris Sandoval", 32000),
                 new UserAccount(264863,1349,"Marc Yim", 1000),
                 new UserAccount(001,5455,"JCash", 1)};
-        List<Logs> logger = new ArrayList<>();
+        List<Logsss> logger = new ArrayList<>();
         System.out.println(Arrays.toString(ua));
         BankApp ba = new BankApp();
         Scanner input1 = new Scanner(System.in);
@@ -86,7 +81,7 @@ MENU:   while(menu) {
         return userFound;
     }
 }
-class UserAccount{
+class UserAccount sssss{
     private int id;
     private int pin;
     private String name;
